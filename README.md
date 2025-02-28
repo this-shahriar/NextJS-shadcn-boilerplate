@@ -56,7 +56,6 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 - `yarn build` – Build the project for production
 - `yarn start` – Start the production server
 - `yarn lint` – Run ESLint checks
-- `yarn format` – Format code with Prettier
 
 ## 📜 License
 This project is licensed under the **MIT License**.
