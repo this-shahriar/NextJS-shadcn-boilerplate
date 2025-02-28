@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js + ShadCN Boilerplate
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![ShadCN](https://img.shields.io/badge/ShadCN-F59E0B?style=for-the-badge) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+## 🚀 Overview
+This is a **Next.js + ShadCN** boilerplate designed for rapid UI development. It includes a pre-configured setup with **TypeScript, Tailwind CSS, Radix UI, and ShadCN** components, providing a clean starting point for your Next.js applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+- **Next.js 15** – App Router with server components
+- **TypeScript** – Strongly typed development
+- **ShadCN UI** – Beautiful and customizable UI components
+- **Radix UI** – Accessible component primitives
+- **Tailwind CSS** – Utility-first styling approach
+- **ESLint & Prettier** – Enforced code quality & formatting
+- **Absolute Imports** – Clean project structure with `@/` aliases
+
+## 🏗 Installation
+
+Clone the repository and install dependencies:
+
+```sh
+git clone https://github.com/this-shahriar/NextJS-shadcn-boilerplate.git
+cd NextJS-shadcn-boilerplate
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Running the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+yarn dev
+```
 
-## Learn More
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Project Structure
+```
+📦 NextJS-shadcn-boilerplate
+├── 📂 src
+│   ├── 📂 actions      # Server actions
+│   ├── 📂 app          # Next.js App Router
+│   ├── 📂 components   # Reusable UI components
+│   ├── 📂 lib          # Utility functions & configurations
+├── 📂 public           # Public static files
+├── .eslintrc.json      # ESLint configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+├── next.config.js      # Next.js configuration
+├── tsconfig.json       # TypeScript configuration
+└── package.json        # Project dependencies and scripts
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `yarn dev` – Start the development server
+- `yarn build` – Build the project for production
+- `yarn start` – Start the production server
+- `yarn lint` – Run ESLint checks
+- `yarn format` – Format code with Prettier
 
-## Deploy on Vercel
+## 📜 License
+This project is licensed under the **MIT License**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributions
+Contributions, issues, and feature requests are welcome! Feel free to fork this repo and submit PRs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Contact
+🔗 GitHub: [@this-shahriar](https://github.com/this-shahriar)
+
+Happy coding! 🎉
