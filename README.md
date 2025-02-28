@@ -63,7 +63,4 @@ This project is licensed under the **MIT License**.
 ## 🤝 Contributions
 Contributions, issues, and feature requests are welcome! Feel free to fork this repo and submit PRs.
 
-## 📬 Contact
-🔗 GitHub: [@this-shahriar](https://github.com/this-shahriar)
-
 Happy coding! 🎉
